@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "airbnb-base"
+  ],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "script"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
+    "quotes": ["error", "single"],
+    "eqeqeq": "error",
+    "semi": ["off", "never"],
+    "indent": ["warn", 2],
+    "linebreak-style": ["error", "windows"],
+    "eol-last": 0
+  }
+}
