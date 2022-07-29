@@ -18,9 +18,9 @@
   },
   "plugins": ["react"],
   "rules": {
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "react/jsx-filename-extension": [0],
     "import/extensions": "off",
-    "prettier/prettier": "warn",
     "eqeqeq": "error",
     "semi": ["off", "never"],
     "indent": ["warn", 2]
